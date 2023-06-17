@@ -16,6 +16,7 @@ class Api::V1::ArticlesController < ApplicationController
     end
   end
 
+  # funciton post
   def create
     article = Article.new(
       title: arti_params[:title],
