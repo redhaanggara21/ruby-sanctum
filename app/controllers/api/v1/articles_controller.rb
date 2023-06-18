@@ -63,4 +63,5 @@ class Api::V1::ArticlesController < ApplicationController
         :body,
         :author
       ])
+  end
 end
